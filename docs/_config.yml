@@ -1,10 +1,7 @@
-
 # Site settings
 title: The ANCHOR - Your gateway into our documentation
 description: Test documentation site
+show_downloads: true
 
 # Build settings
 theme: jekyll-theme-leap-day
-plugins:
-  - jekyll-feed
-show_downloads: false
