@@ -54,19 +54,12 @@ body {
 }
 
 .cell {
+  display:flex;
   float: left;
   width: 33.33%;
   position: relative;
   height: 300px;
-  color: rgba(255, 255, 255, 1);
-}
-
-.cell-contents {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  align-items: center;
 }
 
 .cell h2 {
@@ -77,5 +70,6 @@ body {
 .cell p {
   font-size: 1rem;
   text-transform: uppercase;
+  color: rgba(240, 242, 245, 1);
 }
 
