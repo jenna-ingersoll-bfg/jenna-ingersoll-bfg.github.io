@@ -79,3 +79,23 @@ body {
   color: rgba(240, 242, 245, 1);
 }
 
+.quick-links {
+  display: flex;
+  background-color: rgba(166, 216, 237, 0.78);
+  color: rgba(2, 54, 98, 1);
+}
+
+.quick-links > .quicklink-column {
+  color: rgba(0, 0, 0, 1);
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.quicklink-column > .link {
+  background-color: rgba(248, 245, 243, 1);
+  color: rgba(0, 0, 0, 1);
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
