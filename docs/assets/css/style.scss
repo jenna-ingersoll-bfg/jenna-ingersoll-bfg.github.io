@@ -56,14 +56,18 @@ body {
 .cell {
   float: left;
   width: 33.33%;
-  padding: 10px;
-  height: 300px; 
+  position: relative;
+  height: 300px;
   color: rgba(255, 255, 255, 1);
-  text-align: center;
 }
 
 .cell h2 {
   font-size: 36px;
   color: rgba(240, 242, 245, 1);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
