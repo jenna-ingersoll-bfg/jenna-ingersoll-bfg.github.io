@@ -4,4 +4,13 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
 
-body { font-family: 'Montserrat', sans-serif; }
+body { 
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.hero { 
+  background-image: url("/assets/images/bfg-hero.png"); background-position: 50% 83%; 
+  height: 300px; 
+}
