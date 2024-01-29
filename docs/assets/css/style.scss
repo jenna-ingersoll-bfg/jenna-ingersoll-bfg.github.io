@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body { 
   font-family: 'Montserrat', sans-serif; 
@@ -12,22 +12,26 @@ body {
   line-height: 1.5;
 }
 
-/* Headings */
-.home_header { 
-  font-size: 4.5rem; 
-  color: rgba(239, 242, 245, 1);
-  margin: auto;
-}
-
-.home_subtitle {
-  font-size: 1.5rem;
-  color: rgba(0, 60, 110, 1);
-  margin: auto;
-}
-
 .hero { 
   background-image: url("/assets/images/bfg-hero.png"); 
   background-position: bottom; 
   background-size: cover;
   height: 400px; 
 }
+
+/* Headings */
+.home_header { 
+  font: 4.5rem bold; 
+  color: rgba(239, 242, 245, 1);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.home_subtitle {
+  font: 1.5rem bold;
+  color: rgba(0, 60, 110, 1);
+  text-align: center;
+  padding-top: 100px;
+}
+
+
