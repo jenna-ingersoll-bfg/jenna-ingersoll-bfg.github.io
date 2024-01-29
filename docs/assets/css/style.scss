@@ -33,7 +33,7 @@ body {
 /* Home Page */
 .home_header { 
   font-size: 4.5rem;
-  font-weight: bold; 
+  font-weight: 700; 
   color: rgba(239, 242, 245, 1);
   text-align: center;
   padding-top: 20px;
@@ -41,7 +41,7 @@ body {
 
 .home_subtitle {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 600;
   color: rgba(0, 60, 110, 1);
   text-align: center;
   padding-top: 140px;
@@ -91,16 +91,15 @@ body {
   margin: 10px;
   padding: 20px;
   font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .quick-links h1 {
   font-size: 48px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .quicklink-column > .link {
-  color: rgba(0, 0, 0, 1);
   margin: 10px;
   padding: 20px;
-  font-size: 30px;
 }
