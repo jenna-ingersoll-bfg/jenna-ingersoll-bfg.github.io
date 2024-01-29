@@ -54,12 +54,13 @@ body {
 }
 
 .cell {
-  display:flex;
+  display: flex;
   float: left;
   width: 33.33%;
   position: relative;
   height: 300px;
   align-items: center;
+  text-align: center;
 }
 
 .cell h2 {
