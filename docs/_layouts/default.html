@@ -13,6 +13,11 @@
     {% include head-custom.html %}
   </head>
   <body>
+    <div class="header">
+      {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+      {% endif %}
+    </div>
     <div class="hero">
       <h2 class="home_subtitle">{{ site.description | default: site.github.project_tagline }}</h2>
       <h1 class="home_header">{{ site.title }}</h1>
