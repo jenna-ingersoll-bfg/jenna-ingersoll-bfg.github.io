@@ -1,7 +1,11 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+{%- include head.html -%}
+<body>
+
+  {%- include header.html -%}
+    
     <div class="hero">
       <h2 class="home_subtitle">{{ site.description | default: site.github.project_tagline }}</h2>
       <h1 class="home_header">{{ site.title }}</h1>
@@ -52,6 +56,12 @@ layout: base
           <h3 style="color: rgba(2, 54, 98, 1);">No matter what you're looking for, we have the documentation you need to get you on your way. </h3>
         </div>
       </div>
+
+      {%- include footer.html -%}
+
+  </body>
+
+</html>
     </div>
 
 </div>
