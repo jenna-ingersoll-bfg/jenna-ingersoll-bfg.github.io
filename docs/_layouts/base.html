@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="header">
+      {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" style="padding: 10px 0 0 40px;" />
+      {% endif %}
+    </div>
+    <div class="hero">
+      <h2 class="home_subtitle">{{ site.description | default: site.github.project_tagline }}</h2>
+      <h1 class="home_header">{{ site.title }}</h1>
+    </div>   
+    <div class="row"> 
+      <div class="cell" style="background: rgb(0, 60, 111);"><div class="cell_contents"> <h2>Developer User Guide</h2> <p>The single source of truth for <br />our game developers and partners</p></div></div>
+      <div class="cell" style="background: rgb(3, 79, 136);"><div class="cell_contents"> <h2>Producer Handbook</h2><p>Everything Big Fish internal <br />producers need to know</p></div></div>
+      <div class="cell" style="background: rgb(16, 153, 211);"><div class="cell_contents"> <h2>Resources & Support</h2><p>Additional resources and support to <br />help you along the publishing journey</p></div></div>
+    </div>
+    <div class="quick-links">
+      <div class="quicklink-column" style="flex-basis: 60%;">
+        <div class="link" style="background-color: rgba(248, 245, 243, 1);">
+          <div><img src="assets/images/bigfish-meeting.png" style="width: 275px;"></div>
+          <div style="padding: 0 20px;">
+            <h3>Onboarding</h3>
+            <p><b>Get started developing games with Big Fish!</b></p>
+            <p>Learn about the onboarding process and what to expect from game conception to release</p>
+          </div>
+        </div>
+        <div class="link" style="background-color: rgba(248, 245, 243, 1);">
+          <div><img src="assets/images/bigfish-computer.png" style="width: 275px;"></div>
+          <div style="padding: 0 20px;">
+            <h3>Game Setup & Configuration</h3>
+            <p><b>Add your game to our publishing ecosystem!</b></p>
+            <p>Now that you're a part of the team, let's make sure your game is set up with all of the configurations and pre-requisites required by Big Fish</p>
+          </div>
+        </div>
+        <div class="link" style="background-color: rgba(248, 245, 243, 1);">
+          <div><img src="assets/images/bigfish-group.png" style="width: 275px;"></div>
+          <div style="padding: 0 20px;">
+            <h3>Tools & Services</h3>
+            <p><b>Learn about the tools & services we use at Big Fish</b></p>
+            <p>To ensure the best publishing experience, Big Fish leverages top-shelf solutions for a variety of live ops, authentication, messaging, and telemetry needs and more</p>
+          </div>          
+        </div> 
+        <div class="link" style="background-color: rgba(248, 245, 243, 1);">
+          <div><img src="assets/images/bigfish-phone.png" style="width: 275px;"></div>
+          <div style="padding: 0 20px;">
+            <h3>Game Features</h3>
+            <p><b>Integrate features into your game</b></p>
+            <p>Are you ready to integrate and add features to your game? Find out how to enable authentication, in-app purchasing, messaging and more!</p>
+          </div>          
+        </div>        
+      </div>
+      <div class="quicklink-column" style="flex-basis:40%;">
+        <div>
+          <h1>Quick Links</h1>
+          <h3 style="color: rgba(2, 54, 98, 1);">No matter what you're looking for, we have the documentation you need to get you on your way. </h3>
+        </div>
+      </div>
+    </div>
+        
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
