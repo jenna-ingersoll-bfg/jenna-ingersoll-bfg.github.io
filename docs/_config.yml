@@ -2,8 +2,7 @@ title: The ANCHOR
 description: Your gateway to documentation
 logo: assets/images/bfg-logo.png
 google_analytics:
-# theme: minima
-remote_theme: jekyll/minima
+theme: minima
 
 title: Your awesome title
 author:
